@@ -8,7 +8,8 @@ export const metadata: Metadata = {
     title: "Portfolio posts"
 }
 import getWebPosts from "../api/getWebPosts";
-export default function Portfolio({ data }: { data:any }) {
+{/* @ts-expect-error - expected */}
+export default function Portfolio({ data }: { data }) {
 
     // Returning the JSX for rendering
     return (
