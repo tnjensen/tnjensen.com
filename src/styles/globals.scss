@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@mixin mobile{
+  @media (min-width:425px){
+      @content;
+  }
+}
+@mixin tablet{
+  @media (min-width:768px){
+      @content;
+  }
+}
+@mixin desktop{
+  @media (min-width:992px){
+      @content;
+  }
+}
+@mixin large{
+  @media (min-width:1280px){
+      @content;
+  }
+}
+
+@mixin wide{
+  @media (min-width: 1440px){
+    @content
+  }
+}
+ 
+:root {
+  box-sizing: border-box;
+  --light-blue: #38b5e6;
+  --light-grey: #abc8e8;
+  --blue: #244289;
+  --black: #222;
+  --white: #fffefe;
+  --background-color: #fcfff6;
+}
+
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+
+  h1,h2,h3,h4,h5,h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  h1{
+      text-align: center;
+  }
+  .wrapper{
+    background-color: var(--background-color);
+    max-width: 1280px;
+    margin: 0 auto;
+    min-height: 100vh;
+  }
+
+  .active{
+    border-bottom: var(--light-blue) 2px solid;
+  }
+}

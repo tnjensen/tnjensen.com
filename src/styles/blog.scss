@@ -1,0 +1,66 @@
+@import '@/styles/globals.scss';
+
+.blog {
+
+    iframe {
+        max-width: 90vw;
+        margin: auto;
+        margin-top: 20px;
+
+        @include tablet {
+            max-width: 70vw;
+        }
+
+        @include large {
+            width: 35vw;
+        }
+    }
+
+
+    /* .card {
+        display: flex;
+        flex-direction: column;
+        max-width: 75%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+
+        h2{
+            text-align: center;
+            padding-bottom: 10px;
+        }
+
+        span {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            
+            figure{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    padding: 20px 0;
+                    max-width: 50vw;
+                    height: auto;
+                    border-radius: 25px;
+
+                    @include tablet {
+                        width: 45vw;
+                    }
+
+                    @include desktop {
+                        width: 40vw;
+                    }
+
+                    @include large {
+                        width: 35vw;
+                    }
+                }
+            }
+        }
+    } */
+}

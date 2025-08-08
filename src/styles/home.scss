@@ -1,0 +1,15 @@
+@import '@/styles/globals.scss';
+
+.home {
+    display: flex;
+    flex-direction: column;
+        
+    h2{
+        text-align: center;
+    }
+    .hero{
+        display: flex;
+        justify-content: center; 
+    }
+
+}
