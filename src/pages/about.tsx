@@ -34,7 +34,7 @@ export default function About() {
             <ul>
                 <li><span className="italic">Nielsen: Clarinet Concerto</span> (1996)</li>
                 <li><span className="italic">Rossini : Theme and Variations</span> (1999)</li>
-                <li><span className="italic">Mozart : Sinfonia Concertante</span>(2000)</li>
+                <li><span className="italic">Mozart : Sinfonia Concertante</span> (2000)</li>
                 <li><span className="italic">Strauss : Duet-Concertino</span>, conducted by Daniel Harding (2010)</li>
             </ul>
             <h2 className="text-xl py-2">Other soloist performances include:</h2>
