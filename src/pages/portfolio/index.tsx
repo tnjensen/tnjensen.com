@@ -15,6 +15,7 @@ export default function Portfolio({ data }: { data }) {
     return (
         <div className="grid grid-cols-12 mx-auto px-10 pb-6">
            <h1 className="my-4 text-center text-2xl col-span-12">Projects</h1>
+           <p>I'm a Frontend Developer graduated from Noroff University 2024</p>
            <Suspense fallback={<Loading />}> 
             {data?.map((item:Post) => (
                 <div className="flex flex-col bg-background rounded max-w-xs px-4 py-3 m-2 col-span-12 mx-auto md:col-span-6 lg:col-span-4" key={item.id}>
